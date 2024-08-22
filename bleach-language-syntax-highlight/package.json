@@ -1,0 +1,25 @@
+{
+  "name": "bleach-language-syntax-highlight",
+  "displayName": "Bleach Language Syntax Highlight",
+  "description": "This extension provides syntax highlight for the Bleach programming language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bleach",
+      "aliases": ["Bleach", "bleach"],
+      "extensions": [".bch"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bleach",
+      "scopeName": "source.bleach",
+      "path": "./syntaxes/bleach.tmLanguage.json"
+    }]
+  }
+}
