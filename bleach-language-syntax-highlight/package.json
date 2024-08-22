@@ -1,5 +1,6 @@
 {
   "name": "bleach-language-syntax-highlight",
+  "publisher": "VictorMiguelDeMoraisCosta",
   "displayName": "Bleach Language Official Syntax Highlight",
   "description": "This extension provides the official syntax highlight for the Bleach programming language.",
   "version": "1.0.0",
