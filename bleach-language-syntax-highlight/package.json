@@ -1,8 +1,8 @@
 {
   "name": "bleach-language-syntax-highlight",
-  "displayName": "Bleach Language Syntax Highlight",
-  "description": "This extension provides syntax highlight for the Bleach programming language.",
-  "version": "0.0.1",
+  "displayName": "Bleach Language Official Syntax Highlight",
+  "description": "This extension provides the official syntax highlight for the Bleach programming language.",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.92.0"
   },
